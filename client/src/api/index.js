@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://ebenmemoriesapp.herokuapp.com' });
+const API = axios.create({ baseURL: 'https://lumbar-yummy-moonstone.glitch.me/' });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('profile')) {
